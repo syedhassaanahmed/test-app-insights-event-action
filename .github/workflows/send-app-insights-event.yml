@@ -1,6 +1,7 @@
 name: "Send events to App Insights"
 
 on:
+  workflow_dispatch:
   push:
     branches:
     - main
